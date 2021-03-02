@@ -1,59 +1,65 @@
-## Artificial Intelligence / Machine Learning / Deep Learning
+# Keras Playground
 
-![image](https://user-images.githubusercontent.com/41619898/81538369-a1b57000-93a9-11ea-9523-9e171ccaa949.png)
+![keras-logo](./README.assets/keras-logo.png)
 
-### # Arithficial Intelligence (AI)
+> <http://keras.io>
 
-In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
+Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation.
+Keras is supported on CPU, GPU, and TPU.
 
-<br/>
-
-### # Machine Learning
-
-머신 러닝또는 기계학습은 인공 지능의 한 분야로, 컴퓨터가 학습할 수 있도록 하는 알고리즘과 기술을 개발하는 분야를 말한다.
-
-가령, 기계 학습을 통해서 수신한 이메일이 스팸인지 아닌지를 구분할 수 있도록 훈련할 수 있다.
+![high-level-lib](./README.assets/high-level-lib.png)
 
 <br/>
 
-##### What is the difference between `Data Mining` and `Machine Learning`?
+### What is Deep Learning?
 
-**Machine Learning** involves the automated extraction of information using carefully authored algorithms and assigning AI patterns on a specific area of interest.
-
-기계 학습은 훈련 데이터(Training Data)를 통해 학습된 알려진 속성을 기반으로 예측에 초점을 두고 있다.
-
-On the other hand, **Data Mining** requires human intervention to apply machine learning methodologies on specific only datasets, in order to improve or deduct new classification patterns.
-
-데이터 마이닝은 데이터의 미처 몰랐던 속성을 발견하는 것에 집중다. 이는 데이터베이스의 지식발견 부분의 분석 절차에 해당한다.
+Deep learning is a class of machine learning algorithms that uses multiple layers to progressively extract higher level features from the raw input. These algorithms learn multiple levels of representations that correspond to different levels of abstraction.
 
 <br/>
 
-### # Deep Learning
+### Artificial Intelligence / Machine Learning / Deep Learning
 
-Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
-
-![image](https://user-images.githubusercontent.com/41619898/81538525-ce698780-93a9-11ea-9855-cbfbd827c587.png)
+![ai-ml-dl](./README.assets/ai-ml-dl.png)
 
 <br/>
 
----------
+### Artificial Intelligence (AI)
+
+In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals. AI systems perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
 
 <br/>
 
-![keras_logo](https://user-images.githubusercontent.com/41619898/62167853-0f366980-b35f-11e9-99c5-baa0b0a0a869.png)
+### Machine Learning
 
-> http://keras.io
+Machine Learning is a field of artificial intelligence that focuses on developing algorithms and techniques that allow computers to learn from and make predictions or decisions based on data.
 
-- 케라스는 거의 모든 종류의 딥러닝 모델을 간편하게 만들고 훈련시킬 수 있는 파이썬을 위한 딥러닝 프레임워크이다.
-
-- 처음에 케라스는 신속하게 실험을 해야 하는 연구자들을 위해 개발되었다.
+For example, through machine learning, we can train a system to identify whether incoming emails are spam or not.
 
 <br/>
 
-### 케라스의 특징
+### What is the difference between `Data Mining` and `Machine Learning`?
 
-- 동일한 코드로 CPU와 GPU에서 실행할 수 있다.
-- 사용하기 쉬운 API를 가지고 있어 딥러닝 모델의 프로토타입을 빠르게 만들 수 있다.
-- (컴퓨터 비전을 위한) 합성곱 신경망, (시퀀스 처리를 위한) 순환 신경망을 지원하며 이 둘을 자유롭게 조합하여 사용할 수 있다.
-- 다중 입력이나 다중 출력 모델, 층의 공유, 모델 공유 등 어떤 네트워크 구조도 만들 수 있다.
-- GAN (Generative Adversarial Network, 적대적 생성 신경망)부터 Neural Turing Machine (뉴럴 튜링 머신)까지 케라스는 기본적으로 어떤 딥러닝 모델에도 적합하다.
+**Machine Learning** involves the automated extraction of information using carefully authored algorithms and assigning AI patterns on a specific area of interest. It focuses on prediction based on known properties learned from training data.
+
+On the other hand, **Data Mining** requires human intervention to apply machine learning methodologies on specific datasets, in order to improve or deduct new classification patterns. It focuses on discovering unknown properties in the data.
+
+<br/>
+
+### Deep Learning
+
+Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. These neural networks attempt to simulate the behavior of the human brain to "learn" from large amounts of data.
+
+![why-dl](./README.assets/why-dl.png)
+
+<br/>
+
+### Features of Keras
+
+- The same code can be executed on both CPU and GPU.
+- It has an easy-to-use API that allows for quick prototyping of deep learning models.
+- It supports Convolutional Neural Networks (for computer vision) and Recurrent Neural Networks (for sequence processing), which can be freely combined.
+- Any network architecture can be created, including multi-input or multi-output models, layer sharing, and model sharing.
+- From GANs (Generative Adversarial Networks) to Neural Turing Machines, Keras is basically suitable for any deep learning model.
+- It offers consistent and simple APIs, minimizing the number of user actions required for common use cases.
+- It provides clear and actionable feedback upon user error.
+- It has extensive documentation and developer guides to help users get started quickly.
